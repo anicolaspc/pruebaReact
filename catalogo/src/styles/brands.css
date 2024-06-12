@@ -1,0 +1,80 @@
+select {
+    background-color: #EBEFF4;
+    border: none;
+    font-weight: bold;
+    color: #4B566B;
+}
+
+.container {
+    background: #FFFFFF;
+    margin-right: 20px;
+}
+
+p {
+    color: #7D879C;
+}
+
+.brands {
+    display: grid;
+    justify-content: center;
+}
+
+.brand {
+    width: 50%;
+    height: 50%;
+    margin: 1px;
+    width: 194px;
+    height: 226px;
+    overflow-y: auto;
+    color: #2B3445;
+    font-size: 16px;
+}
+
+.brand::-webkit-scrollbar {
+    width: 8px;
+}
+
+.brand::-webkit-scrollbar-thumb {
+    background-color: #4B566B;
+    border-radius: 4px;
+}
+
+.brand::-webkit-scrollbar-track {
+    background: #D8E0E9;
+}
+
+.brand-title {
+    font: normal normal bold 16px/22px Open Sans;
+}
+
+.name {
+    font: normal normal normal 16px/22px Open Sans;
+    font-size: 16px;
+    margin: 10px;
+}
+
+.pricerange {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+input {
+    margin: 5px;
+    width: 135px;
+    height: 40px;
+    border: 0.5px solid;
+    border-radius: 4px;
+    background: #FFFFFF;
+    color: #B4B4B4;
+}
+
+.brands,
+.price,
+.review,
+.memory,
+.range,
+.camera {
+    border: 1.5px solid #D8E0E9;
+    padding: 10px;
+}
